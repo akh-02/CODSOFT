@@ -9,6 +9,12 @@ def div(x, y):
 def rem(x, y):
     return x % y
 
+print()
+print("\u0332".join("Welcome to simple calculator! Let's calculate!"))
+print()
+# \u0332 is used to underline the contents that precedes it
+
+# taking user input for operation and operands
 print("""SELECT THE OPERATION:\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Divide-Remainder""")
 num1=int(input("Please enter the first number:"))
 num2=int(input("Please enter the second number:"))
